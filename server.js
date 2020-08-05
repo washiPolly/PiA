@@ -43,14 +43,14 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 // local
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/personalinventory"); // Aadded 7-10-2020
+//mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/personalinventory"); // Aadded 7-10-2020
 //Heroku
 
-//-----start here for louie's mongoDB
-// mongoose.connect(
-//   process.env.MONGODB_URI ||
-//     "mongodb://louie123:louie123@ds229450.mlab.com:29450/heroku_vnqf5nh6"
-// ); // Aadded 7-10-2020
+//-----start here for mLab's mongoDB
+mongoose.connect(
+  process.env.MONGODB_URI ||
+  "mongodb://server:server123@ds237713.mlab.com:37713/heroku_nlrfh7w2"
+); // Aadded 7-10-2020
 
 
 // Add routes, both API and view
