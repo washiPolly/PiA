@@ -30,7 +30,7 @@ app.post("/upload", (req, res) => {
 });
 
 //for Postman testing - added 7-14-20
-app.get("/", (req, res) => res.send("API Running"));
+// app.get("/", (req, res) => res.send("API Running"));
 
 // Middleware - added 7-10-2020
 app.use(express.urlencoded({ extended: true }));
