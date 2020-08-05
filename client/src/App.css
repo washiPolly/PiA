@@ -1,0 +1,396 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+  background-color: #e8e9ed;
+  color: #53599a;
+  font-family: 'PT Sans', sans-serif;
+}
+.dashboardDiv {
+  background-image: url(./Images/shallow-focus-photography-of-clothes-994517.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MainLoginDiv {
+  background-image: url(./Images/shallow-focus-photography-of-clothes-994517.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.MainRegisterDiv {
+  background-image: url(./Images/shallow-focus-photography-of-clothes-994517.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.MainHomeDiv {
+  background-image: url(./Images/shallow-focus-photography-of-clothes-994517.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  padding-bottom: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  color: #fff;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #c1eeff;
+}
+
+/* 0A090C
+C1EEFF
+53599A */
+
+.MainClosetDiv {
+  background-image: url(./Images/grayscale-photography-of-assorted-apparels-on-shelf-rack-1884581.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* position:fixed; */
+  /* position: absolute; */
+  padding-bottom: 50px;
+  height: 100%;
+}
+
+.MainPaperworkDiv {
+  background-image: url(./Images/woman-looking-at-folders-3791159.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  padding-bottom: 50px;
+  /* position:fixed; */
+  height: 100%;
+}
+
+.mainFormDiv {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dashboard {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: 100%;
+}
+
+.MainCollectablesDiv {
+  background-image: url(./Images/vintage-music-antique-radio-9295.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: 100vh;
+}
+
+.register {
+  height: 450px;
+}
+
+.register-inner {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+/*hide Logout icon */
+.hide-sm {
+  display: none;
+}
+
+/* Dashboard Page */
+.dashboard-col {
+  margin-bottom: 8%;
+  /* height: 100px; */
+  float: left;
+  margin-left: 25px;
+  padding: 50px;
+  margin-top: -40px;
+}
+
+#dashCards {
+  text-align: center;
+  margin-bottom: 8%;
+  height: 100px;
+  padding: 65px 0;
+  text-shadow: 0 0 5px #53599a, 0 0 8px #53599a;
+  color: white;
+}
+
+.homeIcons {
+  font-size: 30px;
+}
+.homeIconsDiv {
+  padding-left: 140px;
+  /* background: rgba(193, 238, 255, 0.3); */
+}
+.h6icons {
+  float: left;
+  padding: 10px;
+  color: #53599a;
+}
+
+.iconTable {
+  width: 80%;
+  margin: 3%;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.footer {
+  height: 10%;
+
+  text-align: center;
+  align-items: center;
+  bottom: 0;
+
+  width: 100%;
+}
+
+.navbar a {
+  color: #53599a !important;
+}
+
+.btn {
+  background: #53599a !important;
+}
+
+.card {
+  align-items: left;
+  text-align: left;
+}
+
+.wishlist {
+  max-width: 25%;
+  /* float: right; */
+}
+
+/* .react-calendar {
+  width: 300px !important;
+  line-height: 0.125em !important;
+  margin: 10px 10px 10px 130px;
+} */
+.DayPicker-Months {
+  background: white;
+  width: 600px !important;
+  line-height: 1em !important;
+  margin: 65px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.DayPicker-Day--today {
+  background-color: #53599a !important;
+  color: white !important;
+  font-weight: 700;
+}
+
+.DayPicker-TodayButton {
+  color: #53599a !important;
+  text-decoration: underline;
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Register card component */
+#registerForm {
+  background-color: #dbf5ff;
+  width: 55%;
+  min-width: 450px;
+  height: 500px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  margin-top: -50px;
+}
+
+.text-primary registerTitle {
+  color: #53599a;
+}
+
+.lead.registerTitle {
+  color: black;
+}
+.footer {
+  text-align: center;
+}
+
+/* Login card component */
+#loginForm {
+  background-color: #dbf5ff;
+  width: 55%;
+  min-width: 450px;
+  height: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.loginForm {
+  margin-top: 5%;
+}
+
+/* Google card component */
+#googleForm {
+  background-color: #dbf5ff;
+  width: 600px;
+  min-width: 450px;
+  height: 645px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  padding-bottom: 25px;
+}
+
+/* Google card component */
+#formBackupForm {
+  background-color: whitesmoke;
+  width: 100%;
+  min-width: 350px;
+  height: 335x;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  padding-bottom: 25px;
+}
+
+/* Weather card component */
+.WeatherCard {
+  width: 200px;
+  height: 300px;
+  background-image: url(./Images/weather/thunderstorm-small.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-in-out;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  color: black;
+  margin-top: 55px;
+}
+.WeatherCard.warm {
+  width: 200px;
+  height: 300px;
+  background-image: url(./Images/weather/sun-small.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-in-out;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.WeatherCard.snow {
+  width: 250px;
+  height: 300px;
+  background-image: url(./Images/weather/snow-small.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-in-out;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.WeatherCard.rain {
+  width: 200px;
+  height: 300px;
+  background-image: url(./Images/weather/sun-small.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-in-out;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.WeatherContent {
+  min-height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.75)
+  );
+  padding-top: 15px;
+  border-radius: 10px;
+  font-size: large;
+}
+.location {
+  margin-top: 20px;
+}
+.date {
+  margin-top: 10px;
+}
+.condition {
+  padding-bottom: 10px;
+}
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  background-color: rgba(142, 197, 235, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-inline {
+  justify-content: right !important;
+}
+
+/* .budgetChartDiv {
+  float: left;
+  height: 50px;
+} */
+
+/* .chartjs-render-monitor {
+  height: 300px !important;
+  width: 580px !important;
+} */
+
+/* canvas {
+  width: 700px !important;
+  height: 300px !important;
+  font-size: 16px;
+} */
