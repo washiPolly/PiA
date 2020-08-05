@@ -1,29 +1,31 @@
-# Create React Express App
+https://pia-react-app.herokuapp.com/
 
-## About This Boilerplate
+# PiA - Personal Inventory Assistant
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## About PiA
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+Have you ever been in a situation where you saw a Tie or dress shirt you needed for an outfit but wasn't sure if it would match? Or do you have an upcoming event and wasn't sure if there was already something in your Closet you can wear?
 
-## Starting the app locally
+What about having a comprehensive database storing your Collectibles inventory you can easily find, review, and trade from?
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+Would it be nice to have your warranty, insurance documents, or even taxes handy to pull up whenever you needed?
 
-```
-npm install
-```
+This was the inspiration behind PiA. We wanted to offer a new way to offer Users to store and organize their peronsal inventory.
 
-This should install node modules within the server and the client folder.
+## Continued Buildling
 
-After both installations complete, run the following command in your terminal:
+We would like to offer complete:
 
-```
-npm start
-```
+1. Budgeting
+2. Affliates programs for Online Shopping
+3. Comprehensive Database Search
+4. Full Calendar integrations
+5. Alerts and Reminders for Collectible items
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## Contributors
 
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+Polly Su
+Chris Recinos
+Louie Flores
+Romi Keerbs
+Jeff Hanapin
